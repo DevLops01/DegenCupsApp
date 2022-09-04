@@ -1,0 +1,26 @@
+{
+  "name": "cryptosplash-live",
+  "version": "2.0.0",
+  "description": "A newly redefined gambling experience!",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "api": "npm start -prefix server",
+    "client": "npm start -prefix client",
+    "build": "sh ./scripts/build-local.sh",
+    "deploy": "sh ./scripts/deploy-local.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gambling",
+    "crypto"
+  ],
+  "author": "cryptosplash",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@solana/web3.js": "^1.56.2",
+    "bs58": "^5.0.0",
+    "dotenv": "^16.0.2",
+    "mongo-sanitize": "^1.1.0"
+  }
+}
