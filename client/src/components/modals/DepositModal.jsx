@@ -16,7 +16,6 @@ import bitcoin from "../../assets/bitcoin.png";
 import bitcoinICO from "../../assets/bitcoin-icon.png";
 import { useEffect } from "react";
 import { loadUser } from "../../actions/auth";
-import store from "../../store";
 
 // Custom Styles
 const useStyles = makeStyles(theme => ({
